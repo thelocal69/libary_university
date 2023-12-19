@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include "ManagerReaders.h"
 
-int main(void) {
+int main(int argc, char **argv) {
 
 	int input;
 
 	do {
-		printf("1. Input readers\n");
-		printf("2. Input books\n");
-		printf("3. Find information by book name\n");
-		printf("4. Borrow books\n");
-		printf("5. Listed borrow books by readers\n");
-		printf("6. Listed readers borrow books out of date by decending\n");
-		printf("7. Print 10 most books have quantity borrow \n");
-		printf("8. Load Data\n");
-		printf("9. Save Data\n");
-		printf("0. Exit\n");
+		printf("\n1. Input readers\n");
+		printf("\n2. Input books\n");
+		printf("\n3. Find information by book name\n");
+		printf("\n4. Borrow books\n");
+		printf("\n5. Listed borrow books by readers\n");
+		printf("\n6. Listed readers borrow books out of date by decending\n");
+		printf("\n7. Print 10 most books have quantity borrow \n");
+		printf("\n8. Load Data\n");
+		printf("\n9. Save Data\n");
+		printf("\n0. Exit\n");
 		scanf("%d", &input);
 		switch (input) {
 		case 1:
